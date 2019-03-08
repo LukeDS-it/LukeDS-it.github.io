@@ -5,19 +5,20 @@ layout: compress
 <html lang="en">
 {% include head.html %}
 <body>
-
 <div class="console">
     <span class="userhost">guest@ldsoftware.it:</span>
     <ol>
         <li><a href="/">~</a></li>
         {% if page.permalink %}
             {% assign slugs = page.permalink | remove_first: "/" | split: "/" %}
-            {% assign link = "/" %}
-            {% for slug in slugs %}
-                {% assign link = link | append: slug | append: "/" %}
-                <li><a href="{{link}}">/{{ slug }}</a></li>
-            {% endfor %}
+        {% elsif page.id %}
+            {% assign slugs = page.id | remove_first: "/" | split: "/" %}
         {% endif %}
+        {% assign link = "/" %}
+        {% for slug in slugs %}
+            {% assign link = link | append: slug | append: "/" %}
+            <li><a href="{{link}}">/{{ slug }}</a></li>
+        {% endfor %}
     </ol>
     $
     <label for="prompt">Write a command!</label>
