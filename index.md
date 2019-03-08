@@ -1,12 +1,9 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: default
 keywords: luca di stefano,programmer,italy,cosplay,photo,piave,distefano,developer,web,java,scala,ldsoftware,software
 ---
 
-<img class="my-picture" src="/static/logos/lds_blue.png" />
+<img class="my-picture" src="/static/photos/me.jpg" />
 
 # Hi, I'm Luca!
 

@@ -27,40 +27,42 @@ layout: compress
 
 <div class="page">
 
-    <img class="logo" src="{{ '/static/logos/lds_green.png' | prepend: site.baseurl  }}" alt="logo"/>
+    <a class="logo" href="/">
+        <img class="logo" src="{{ '/static/logos/lds_green.png' | prepend: site.baseurl  }}" alt="Back to the home page"/>
+    </a>
 
     <nav>
         <ol>
-           {% for content in site.data.root %} 
+            {% for content in site.data.root %}
             <li>
                 <a href="/{{ content.permalink }}">
-                    <img class="category" src="{{ content.icon }}" alt="{{ content.description }}" />
+                    <img class="category" src="{{ content.icon }}" alt="{{ content.description }}"/>
                     <span>
                         {{ content.name }}
                     </span>
                 </a>
             </li>
-           {% endfor %}
-           {% if site.github_username %}
+            {% endfor %}
+            {% if site.github_username %}
             <li>
                 <a href="https://github.com/{{ site.github_username }}" target="_blank">
-                    <img class="category" src="/static/images/github-icon.png" alt="My page on GitHub" />
+                    <img class="category" src="/static/images/github-icon.png" alt="My page on GitHub"/>
                     <span>
                         GitHub
                     </span>
                 </a>
             </li>
-           {% endif %}
-           {% if site.linkedin_username %}
+            {% endif %}
+            {% if site.linkedin_username %}
             <li>
                 <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank">
-                    <img class="category" src="/static/images/linkedin-icon.png" alt="My LinkedIN profile" />
+                    <img class="category" src="/static/images/linkedin-icon.png" alt="My LinkedIN profile"/>
                     <span>
                         LinkedIN
                     </span>
                 </a>
             </li>
-           {% endif %}
+            {% endif %}
         </ol>
     </nav>
 
@@ -71,7 +73,8 @@ layout: compress
 </div>
 
 <footer>
-    &copy; Luca Di Stefano 2019, last update {{ site.last_update }}. Read the <a href="/about">cookie and privacy policy</a>
+    &copy; Luca Di Stefano 2019, last update {{ site.last_update }}. Read the <a href="/about">cookie and privacy
+    policy</a>
 </footer>
 {% include scripts.html %}
 </body>
