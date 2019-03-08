@@ -8,9 +8,9 @@
     function toggle() {
         toggled = !toggled;
         if (toggled) {
-            menu.classList.add("opened")
+            menu.classList.add("opened");
         } else {
-            menu.classList.remove("opened")
+            menu.classList.remove("opened");
         }
     }
 })();
