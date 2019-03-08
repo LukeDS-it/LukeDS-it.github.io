@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Profession",
+        "type": "aggregate",
+        "permissions": [],
+        "permalink": "profession",
+        "icon": "/static/images/folder-icon.png"
+    },
+    {
+        "name": "S as Software",
+        "type": "aggregate",
+        "permissions": [],
+        "permalink": "software",
+        "icon": "/static/images/programming-icon.png"
+    },
+    {
+        "name": "Photos",
+        "type": "aggregate",
+        "permissions": [],
+        "permalink": "gallery",
+        "icon": "/static/images/dslr-icon.png"
+    },
+    {
+        "name": "Cosplay",
+        "type": "aggregate",
+        "permissions": [],
+        "permalink": "cosplay",
+        "icon": "/static/images/folder-icon.png"
+    },
+    {
+        "name": "Diary",
+        "type": "aggregate",
+        "permissions": [],
+        "permalink": "blog",
+        "icon": "/static/images/blog-icon.png"
+    },
+    {
+       "name": "About",
+       "type": "content",
+       "permissions": [],
+       "permalink": "about",
+       "icon": "/static/images/about-icon.png"
+    }
+]

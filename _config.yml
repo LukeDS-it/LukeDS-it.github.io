@@ -1,0 +1,32 @@
+# Site settings
+
+title: LDSoftware
+email: info@ldsoftware.it
+description: >- 
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: ""
+url: "https://ldsoftware.it"
+twitter_username: LucaMacGyver
+github_username:  LukeDS-it
+linkedin_username: luca-di-stefano-31224b3b
+last_update: Fri, 08 March 2019
+permalink: /blog/:categories/:year/:month/:day/:title
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
