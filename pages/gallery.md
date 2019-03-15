@@ -1,6 +1,7 @@
 ---
 layout: aggregate
 title: Photos
+aggregateName: gallery
 description: One of my hobbies#58& photography
 permalink: /gallery/
 ---

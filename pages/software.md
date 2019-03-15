@@ -1,6 +1,7 @@
 ---
 layout: aggregate
 title: Software
+aggregateName: software
 description: Software related stuff, from full fledged programs to source code to reading material
 permalink: /software/
 ---

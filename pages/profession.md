@@ -1,6 +1,7 @@
 ---
 layout: aggregate
 title: Profession
+aggregateName: profession
 description: My professional information
 permalink: /profession/
 ---
