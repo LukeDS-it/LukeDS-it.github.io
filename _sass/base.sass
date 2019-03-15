@@ -7,26 +7,33 @@ body
 
 a
   color: $primary-color
+
   &:visited
     color: lighten($primary-color, 10%)
 
 .console
   font-family: monospace
+
   .userhost
     color: lighten($accent-color, 50%)
+
   label
     display: none
+
   ol
     display: inline
     padding: 0
+
     li
       display: inline
       margin-left: -5px
+
   input
     background: $base-color
     border: none
     color: $complement-color
     font-family: monospace
+
     &:focus
       outline: none
 
@@ -35,22 +42,36 @@ a
   flex-direction: column
   justify-content: space-around
   margin-top: 100px
+
+  main
+    width: 70%
+    padding: 20px
+    margin: 30px auto
+    border-radius: 6px
+    border: 1px solid darken($complement-color, 30%)
+    min-height: 50vh
+
   .logo
     width: 6em
     margin: auto
+
   @media (min-width: 671px)
     nav
       margin: auto
+
       ol
         display: inline
+
         li
           display: inline
           list-style: none
+
           a
             margin: 0 5px
             display: inline
             position: relative
             text-decoration: none
+
             span
               top: 20px
               right: -50%
@@ -62,6 +83,7 @@ a
               color: $base-color
               border-radius: 5px
               background-color: lighten($complement-color, 15%)
+
               &::after
                 content: " "
                 position: absolute
@@ -71,9 +93,11 @@ a
                 border-width: 5px
                 border-style: solid
                 border-color: transparent transparent lighten($complement-color, 15%) transparent
+
           &:hover
             span
               visibility: visible
+
   @media (max-width: 670px)
     nav
       position: fixed
@@ -82,43 +106,42 @@ a
       z-index: 2
       width: 100%
       height: 100vh
-      padding-top: 10px
       transition: width 0.5s, height 0.5s, transform 0.5s
       transform: translateY(100%)
+
       &.opened
         transform: translateY(0)
+
       ol
         margin: 0
-        padding: 0
+        padding: 10px 0 0 0
         display: flex
         height: 100vh
         background: rgba($base-color, 0.85)
         flex-direction: row
         flex-wrap: wrap
         align-content: flex-start
+
         li
           list-style: none
           display: inline-block
           margin: 10px
+
           a
             display: inline-flex
             text-decoration: none
             flex-direction: column
             justify-content: center
+
             img
               align-self: center
+
             span
               align-self: center
               width: 100px
               text-align: center
-
-  main
-    width: 70%
-    padding: 20px
-    margin: 30px auto
-    border-radius: 6px
-    border: 1px solid darken($complement-color, 30%)
-    min-height: 50vh
+    main
+      padding-bottom: 45px
 
 footer
   bottom: 0
