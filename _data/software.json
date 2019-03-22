@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Webfleet",
+    "type": "content",
+    "permissions": [],
+    "permalink": "webfleet",
+    "icon": "/static/images/folder-icon.png",
+    "description": "Webfleet is an attempt of making a distributed CMS, an experiment to learn microservice architecture"
+  }
+]

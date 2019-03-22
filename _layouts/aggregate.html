@@ -4,3 +4,21 @@ customcss: aggregate
 ---
 
 {{content}}
+
+<div class="list-container">
+    {% for sub in site.data[page.aggregateName] %}
+    <div class="list-element">
+        <a href="{{ sub.permalink }}" class="content-image">
+            <img src="{{ sub.icon }}" alt="{{ sub.name }}"/>
+        </a>
+        <div class="list-descriptor">
+            <a href="{{ sub.permalink }}">
+                <h2>{{ sub.name }}</h2>
+            </a>
+            <p>
+                {{ sub.description }}
+            </p>
+        </div>
+    </div>
+    {% endfor %}
+</div>
