@@ -20,7 +20,7 @@ stacked together however the user likes to make a website. The main pieces can b
 * Query side: a layer that provides the publisher side APIs to search content in the best possible way
 * Auth side: a layer that provides authentication to access any of the former pieces.
 
-![Architecture diagram](/static/images/webfleet/webfleet-architecture.png)
+[![Architecture diagram](/static/images/webfleet/webfleet-architecture.png)](/static/images/webfleet/webfleet-architecture.png)
 
 This is the theory behind the concept. Currently I am developing the following pieces:
 
@@ -46,7 +46,7 @@ implement a filesystem-like structure. The structure is composed by
 
 As explained in the following schema
 
-![Domain diagram](/static/images/webfleet/webfleet-domain.png)
+[![Domain diagram](/static/images/webfleet/webfleet-domain.png)](/static/images/webfleet/webfleet-domain.png)
 
 ## Eventsourcing
 
@@ -58,7 +58,7 @@ be emitted when the command passes validation.
 
 Here a small summary, that might not be yet complete, of the commands.
 
-![Commands diagram](/static/images/webfleet/webfleet-commands.png)
+[![Commands diagram](/static/images/webfleet/webfleet-commands.png)](/static/images/webfleet/webfleet-commands.png)
 
 ## Infrastructure
 
@@ -67,3 +67,4 @@ first test and then deploy the code in each Pull Request on Github.
 
 This proved useful to get insights on CI/CD.
 
+Keep following this page for updates!
