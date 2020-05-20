@@ -5,8 +5,6 @@ permalink: /software/webfleet/
 description: Webfleet is an attempt of making a distributed CMS, an experiment to learn microservice architecture
 ---
 
-# Webfleet
-
 Webfleet is a playful attempt at learning microservice-oriented architectures, whilst creating
 something I like: stuff to make order.
 
