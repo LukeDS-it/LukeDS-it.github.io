@@ -1,7 +1,7 @@
 ---
-layout: aggregate
+layout: folder
 title: Photos
-aggregateName: gallery
+folderName: gallery
 description: One of my hobbies#58& photography
 permalink: /gallery/
 ---

@@ -1,7 +1,7 @@
 ---
-layout: aggregate
+layout: folder
 title: Profession
-aggregateName: profession
+folderName: profession
 description: My professional information
 permalink: /profession/
 ---

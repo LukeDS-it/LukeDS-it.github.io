@@ -1,8 +1,8 @@
 ---
-layout: aggregate
+layout: folder
 title: Cosplay
 permalink: /cosplay/
-aggregateName: cosplay
+folderName: cosplay
 description: >-
     I started cosplaying a long time ago, just for fun, after a long hiatus I'm back on the scene,
     even if I'm no professional
