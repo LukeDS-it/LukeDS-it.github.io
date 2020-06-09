@@ -1,35 +1,35 @@
 [
     {
         "name": "Profession",
-        "type": "aggregate",
+        "type": "folder",
         "permissions": [],
         "permalink": "profession",
         "icon": "/static/images/folder-icon.png"
     },
     {
         "name": "S as Software",
-        "type": "aggregate",
+        "type": "folder",
         "permissions": [],
         "permalink": "software",
         "icon": "/static/images/programming-icon.png"
     },
     {
         "name": "Photos",
-        "type": "aggregate",
+        "type": "folder",
         "permissions": [],
         "permalink": "gallery",
         "icon": "/static/images/dslr-icon.png"
     },
     {
         "name": "Cosplay",
-        "type": "aggregate",
+        "type": "folder",
         "permissions": [],
         "permalink": "cosplay",
         "icon": "/static/images/folder-icon.png"
     },
     {
         "name": "Diary",
-        "type": "aggregate",
+        "type": "folder",
         "permissions": [],
         "permalink": "blog",
         "icon": "/static/images/blog-icon.png"

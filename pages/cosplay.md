@@ -1,14 +1,12 @@
 ---
-layout: aggregate
+layout: folder
 title: Cosplay
 permalink: /cosplay/
-aggregateName: cosplay
+folderName: cosplay
 description: >-
     I started cosplaying a long time ago, just for fun, after a long hiatus I'm back on the scene,
     even if I'm no professional
 ---
-
-# Cosplay
 
 My first cosplay experience is dated way back, me and a couple of friends did a Naruto group. Back at the time I
 was really clueless, I liked the idea even if I never liked dressing up as a child.

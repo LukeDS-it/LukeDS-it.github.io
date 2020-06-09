@@ -4,7 +4,15 @@
     "type": "content",
     "permissions": [],
     "permalink": "webfleet",
-    "icon": "/static/images/folder-icon.png",
+    "icon": "/static/images/page-icon.png",
     "description": "Webfleet is an attempt of making a distributed CMS, an experiment to learn microservice architecture"
+  },
+  {
+    "name": "REACTing to change with microservices",
+    "type": "content",
+    "permissions": [],
+    "permalink": "reacting-to-change-microservices",
+    "icon": "/static/images/page-icon.png",
+    "description": "As time goes by, the user base of an application grows, and so does the application itself. To avoid that the heavy workloads and the growing codebase submerge us, and be reactive to changes and requests, the microservice architecture, if properly applied, can greatly help to keep the pace of evolution."
   }
 ]

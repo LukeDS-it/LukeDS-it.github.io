@@ -4,7 +4,6 @@ title: About
 permalink: /about/
 description: Information about the website; technology, resources and cookie policies
 ---
-# About
 
 ## Cookie policy
 
