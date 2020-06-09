@@ -89,11 +89,11 @@ we're used to.
 
 ## What is a microservice?
 
-"Micro" is not about the codebase size.
-There isn't a real definition of microservice: one "service" on its own is just a service.
-In order to talk about microservices, we must have many services that interact with each other, and
-each service must do one thing, and do it well. It's the divide and conquer principle,
+"Micro" is not about the codebase size, rather, it's about the scope of its responsibility.
+One service must do one thing, and do it well. It's the divide and conquer principle,
 taken to the extreme.
+We can't really talk about microservices if we have only one, though. So, the second
+thing that makes a microservice, is that it comes with other microservices.
 
 ## Reactive microservices
 
@@ -145,7 +145,21 @@ vast and can't be discussed in a simple presentation)
 - saga pattern: used for transactions in microservices, one component will take care of fulfilling
   all the steps of a transaction, and to roll back everything when there's a failure.
 
+## What's the catch?
 
+Individual microservices are relatively easy to implement. What is hard in this architecture is
+making them talk with each other, and manage an entire ecosystem of them:
+
+- service discovery
+- coordination
+- security
+- replication
+- data consistency
+- failover
+- deployment
+- integration with external systems
+
+And many more.
 
 [1]: https://reactivemanifesto.org
 [2]: https://www.lightbend.com/ebooks/reactive-microservices-architecture-design-principles-for-distributed-systems-oreilly
