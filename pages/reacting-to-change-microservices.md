@@ -113,7 +113,39 @@ of the normal.
 The first thing we can point out is that, when a single service is not working properly, the other
 parts are still working, and can take compensating actions until that service returns operational.
 As an example, we might have something that caches data and returns that cached data if the main
-provider is unreachable (eventually along with the indication that data might be stale)
+provider is unreachable (eventually along with the indication that data might be stale).
+
+The solution for a failure might be to restart the node, or if it's too corrupted, to delete it and
+create a new one somewhere else.
+
+So how do microservice make everything responsive?
+
+The two previous examples already talk by themselves: if something is not outright available,
+a substitution is served. Data is not kept in a single, maybe far away place, but as close
+as possible to the user. Also Single Pages Applications are part of a microservice architecture,
+because they shift the workload of building the interfaces close to where it's needed: the
+user's browser.
+
+All those services, finally, need a way to cooperate and run their job together. It's really
+easy, though, to lose track of the application because it's distributed and each piece works
+seemingly independently, it's not possible for a single person to grasp the whole system if
+there is nothing that explains how the services talk together.
+To be able to understand what the services do, we focus on the _message flow_ between the system:
+each functionality (e.g. an user wants to write an email) is described via a flow, and the
+interaction model of the back end becomes clearer.
+
+There are many ways to implement message passing, which I will just mention (the topic is too
+vast and can't be discussed in a simple presentation)
+- fire-and-forget (tell pattern): a component sends a message and doesn't care about receiving
+  an answer
+- request-response pattern: a component sends a message and waits for a reply (blocking)
+- ask pattern: a component sends a message and a response is sent either to the requester, or to
+  another component that will continue the flow
+- aggregator pattern: a component needs the responses of many services in order to fulfil a request
+- saga pattern: used for transactions in microservices, one component will take care of fulfilling
+  all the steps of a transaction, and to roll back everything when there's a failure.
+
+
 
 [1]: https://reactivemanifesto.org
 [2]: https://www.lightbend.com/ebooks/reactive-microservices-architecture-design-principles-for-distributed-systems-oreilly
