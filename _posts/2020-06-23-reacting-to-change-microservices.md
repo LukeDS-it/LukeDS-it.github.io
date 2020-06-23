@@ -131,7 +131,7 @@ So how do microservice make everything responsive?
 
 The two previous examples already talk by themselves: if something is not outright available,
 a substitution is served. Data is not kept in a single, maybe far away place, but as close
-as possible to the user. Also Single Pages Applications are part of a microservice architecture,
+as possible to the user. Single Pages Applications are too part of a microservice architecture,
 because they shift the workload of building the interfaces close to where it's needed: the
 user's browser.
 
@@ -149,10 +149,10 @@ vast and can't be discussed in a simple presentation)
   an answer
 - request-response pattern: a component sends a message and waits for a reply (blocking)
 - ask pattern: a component sends a message and a response is sent either to the requester, or to
-  another component that will continue the flow
+  another component that will continue the flow (non blocking)
 - aggregator pattern: a component needs the responses of many services in order to fulfil a request
-- saga pattern: used for transactions in microservices, one component will take care of fulfilling
-  all the steps of a transaction, and to roll back everything when there's a failure.
+- saga pattern: used for transactions in microservices, one component will take care of all the
+  steps of a transaction, and roll back everything when there's a failure.
 
 ## What's the catch?
 
