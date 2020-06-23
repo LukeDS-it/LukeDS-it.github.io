@@ -1,7 +1,9 @@
 ---
-layout:      page
-title:       REACTing to change with microservices
-permalink:   /software/reacting-to-change-microservices/
+layout:      post
+title:       "REACTing to change with microservices"
+date:        2020-06-23 22:15:00 +0200
+category:    self-learning
+tags:        microservices reactive software-architecture
 description: >-
              As time goes by, the user base of an application grows, and so does the application
              itself. To avoid that the heavy workloads and the growing codebase submerge us, and
@@ -15,15 +17,16 @@ description: >-
     learning process, hopefully this byproduct will be useful for other people as well.
 </div>
 
-We start by setting our desired achievement: the need to build a system that is _responsive_ to
+The goal in software development, during modern times is to build a system that is _responsive_ to
 users.
 
-The [Reactive Manifesto][1] suggests us that if we want to achieve this,
+What does "responsive" means, in terms of user experience? A look at the [Reactive Manifesto][1]
+tells us the meaning of this:
 
-> The system must be RESPONSIVE.
+> The system must be RESPONSIVE: It must be maintainable, easily extensible and responding 
+> to the user in a timely manner.
 
-It must be maintainable, easily extensible and responding to the user in a timely
-manner. This means that our system must be
+This means that the system itself must be
 
 > Resilient (stay responsive during failures)
 
@@ -31,14 +34,18 @@ and
 
 > Elastic: react to variable loads in the same way 
 
-and we can achieve this via the means of making it
+Finally, in its fourth point, the manifesto suggests that if we want to make all three possible,
+our system should be
 
 > Message-driven
 
-Let's think at the usual monolith model.
+The Reactive manifesto was born because the current expectations of programs by users have changed
+in the course of the past years, and the old architectures do not suit well the model.
+
+Let's think at the usual monolithic model:
 
 As the core business of a company grows, so does the application(s) that hold it together.
-When offering new core services, more functionalities are added to the ones already existing
+When offering new core services, more functionalities will be added to the ones that already exist,
 and it's not rare that something that was supposed to be "simple" and "used in only one occasion"
 is instead reused, made to grow and in the end everyone who has worked on that project
 loses track of what happened, and the outcome is a monolith, that nobody wants to touch ever again.
@@ -53,7 +60,8 @@ A monolith might not be responsive/elastic, because
   even if the queries are relatively simple
 - some functions may overlap with others, for example transactions lock db resources until
   success or failure, thus that data is unavailable until the lock is released, leading to queueing
-  and making seemingly unrelated functionalities actually interfere with each other
+  and making seemingly unrelated functionalities actually interfere with each other.
+  Concurrent CRUD at high rates is difficult.
   
 It might not be resilient: if one part of the monolith fails, everything breaks
 - a simple hotfix requires restarting the whole system
@@ -62,6 +70,7 @@ It might not be resilient: if one part of the monolith fails, everything breaks
 Some early attempts to make the application elastic just scaled the applications:
 - vertically: adding more resources (CPU, RAM, etc.) might work at first, but there will always
   be a performance bottleneck, where adding resources will not make the application faster.
+  (see: Amdahl's law, Universal Scalability Law)
 - horizontally: adding more copies of the same application could work, but a monolith is not easily
   scalable because of the reasons exposed before, also we have to consider other factors such as:
   - there might be scheduled jobs that need to run in a separate environment, and duplicating the
