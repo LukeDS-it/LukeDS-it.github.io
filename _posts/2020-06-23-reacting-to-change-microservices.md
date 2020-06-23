@@ -70,7 +70,7 @@ It might not be resilient: if one part of the monolith fails, everything breaks
 Some early attempts to make the application elastic just scaled the applications:
 - vertically: adding more resources (CPU, RAM, etc.) might work at first, but there will always
   be a performance bottleneck, where adding resources will not make the application faster.
-  (see: Amdahl's law, Universal Scalability Law)
+  (see: [Amdahl's law] [3], [Universal Scalability Law] [4])
 - horizontally: adding more copies of the same application could work, but a monolith is not easily
   scalable because of the reasons exposed before, also we have to consider other factors such as:
   - there might be scheduled jobs that need to run in a separate environment, and duplicating the
@@ -172,3 +172,5 @@ And many more.
 
 [1]: https://reactivemanifesto.org
 [2]: https://www.lightbend.com/ebooks/reactive-microservices-architecture-design-principles-for-distributed-systems-oreilly
+[3]: https://en.wikipedia.org/wiki/Amdahl%27s_law
+[4]: https://wso2.com/blog/research/scalability-modeling-using-universal-scalability-law#:~:text=Universal%20Scalability%20Law%20(USL)%20is,system%20level%2C%20and%20hardware%20level.
