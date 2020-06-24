@@ -168,7 +168,16 @@ making them talk with each other, and manage an entire ecosystem of them:
 - deployment
 - integration with external systems
 
-And many more.
+And this is just a partial list. As for the answers to this, at the time of writing, I feel that
+I still need to get more knowledge in order to be able to undertake any of these.
+All I can say is that I noticed that the only way to be able to surpass any of these problems is
+to start working from the bases (start to create my own microservice environment) and search
+for solutions whenever I come by a stop. Reading pre-made recipes is not for me, as sometimes
+they do not explain to the full extent why some choices have been made.
+
+This is all for this chapter, thanks for reading!
+
+L.
 
 [1]: https://reactivemanifesto.org
 [2]: https://www.lightbend.com/ebooks/reactive-microservices-architecture-design-principles-for-distributed-systems-oreilly
