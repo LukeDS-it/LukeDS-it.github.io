@@ -180,3 +180,23 @@ footer
     background: $base-color
     border-radius: 50%
     padding: 5px
+
+@mixin box($icon, $color)
+  background: lighten($color, 10%)
+  border: 1px solid darken($color, 10%)
+  border-radius: 8px
+  color: $base-color
+  padding: 25px
+  display: flex
+  &::before
+    content: url($icon)
+    margin-right: 12px
+
+.note
+  @include box("/static/images/info-icon.png", $primary-color)
+
+.warning
+  @include box("/static/images/warning-icon.png", $warning-color)
+
+.danger
+  @include box("/static/images/error-icon.png", $error-color)
