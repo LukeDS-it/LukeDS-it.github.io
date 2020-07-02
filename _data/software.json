@@ -4,7 +4,7 @@
     "type": "content",
     "permissions": [],
     "permalink": "webfleet",
-    "icon": "/static/images/page-icon.png",
+    "icon": "/static/logos/webfleet.png",
     "description": "Webfleet is an attempt of making a distributed CMS, an experiment to learn microservice architecture"
   }
 ]
