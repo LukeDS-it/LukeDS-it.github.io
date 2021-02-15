@@ -3,7 +3,7 @@ layout: default
 keywords: luca di stefano,programmer,italy,cosplay,photo,piave,distefano,developer,web,java,scala,ldsoftware,software
 ---
 
-<img class="my-picture" src="/static/photos/me.jpg" />
+![This is me!](/static/photos/me.jpg){:class="my-picture"}
 
 # Hi, I'm Luca!
 
