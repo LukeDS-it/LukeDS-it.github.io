@@ -10,8 +10,7 @@ baseurl: ""
 url: "https://ldsoftware.it"
 twitter_username: LucaMacGyver
 github_username:  LukeDS-it
-linkedin_username: luca-di-stefano-31224b3b
-last_update: Tue, 12 April 2022
+last_update: Thu, 21 April 2022
 permalink: /blog/:categories/:year/:month/:day/:title
 
 # Build settings
