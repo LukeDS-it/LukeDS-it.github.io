@@ -1,0 +1,3 @@
+[submodule "themes/hugo-dark-developer"]
+	path = themes/hugo-dark-developer
+	url = https://github.com/LukeDS-it/hugo-dark-developer

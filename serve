@@ -1,2 +1,6 @@
 #!/bin/bash
-docker run --rm -p 8080:4000 -v $(pwd):/site bretfisher/jekyll-serve
+cd themes/hugo-dark-developer || exit
+npm install
+cd ../..
+hugo server -D
+

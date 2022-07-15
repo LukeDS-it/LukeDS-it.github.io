@@ -1,0 +1,65 @@
+---
+title: Profession
+menu: main
+description: My professional information
+weight: 1
+icon: briefcase.png
+---
+
+My profession started as a hobby. I am now a full fledged software engineer, with knowledge spacing
+from backend to frontend.
+
+This page summarizes my work experience and my tech skills.
+
+## My tech skills
+
+### Languages
+- Java
+- Kotlin
+- Scala (It's my favorite!)
+- Typescript (If I really must)
+
+### Frameworks
+
+- Spring (13 years of experience and counting)
+- Hibernate
+- JPA
+- Akka (akka-actors, akka-streaming, akka-http)
+- Junit, Mockito, Wiremock, TestContainers, Scalatest
+- React with Typescript (yeah frontend too)
+
+### Others
+
+- CD/CI with Github Actions and Heroku
+- Application of OAuth2 with Spring, Akka, React, Keycloak, Quarkus
+- Favorite development approaches: Eventsourcing, CQRS, DDD
+- Functional programming enthusiast, I completed the online specialization by EPFL:
+  - [Functional Programming in Scala][2]
+  - [Functional Programming Principles in Scala][3]
+  - [Big Data Analysis with Scala and Spark][4]
+  - [Parallel Programming][5]
+  - [Functional Program Design in Scala][6]
+  - [Functional Programming in Scala Capstone][7]
+
+**Also**: Fast in understanding arcane code and in bug-solving
+
+## My employers
+
+|         Time period        |                             Employer                                 |
+|----------------------------|----------------------------------------------------------------------|
+| March 2020 - Current       | BOOM! Imagestudio S.P.A. as backend engineer                         |
+| December 2016 - March 2020 | Previnet S.P.A. as Software Architect                                |
+| July 2009 - December 2016  | Datapiano S.R.L. as full stack developer                             |
+| November 2014 - July 2015  | Creator and maintainer of the website for Teatro Metropolitano Astra |
+
+**Honorable mention**: I worked on the [Slándáil][1] project which brought me all over Europe, meeting
+many interesting people who taught me a lot.
+
+[1]: https://cordis.europa.eu/project/id/607691
+[2]: https://www.coursera.org/account/accomplishments/specialization/certificate/DG2LHGV3VFGJ
+[3]: https://www.coursera.org/account/accomplishments/certificate/HNYAZDXTCKNC
+[4]: https://www.coursera.org/account/accomplishments/certificate/7TRZZ6L58JBA
+[5]: https://www.coursera.org/account/accomplishments/certificate/S9QU92P5PYHM
+[6]: https://www.coursera.org/account/accomplishments/certificate/UJWRKDPRUV3S
+[7]: https://www.coursera.org/account/accomplishments/certificate/AEQKXYF22CDN
+
