@@ -55,6 +55,21 @@ This page summarizes my work experience and my tech skills.
 **Honorable mention**: I worked on the [Slándáil][1] project which brought me all over Europe, meeting
 many interesting people who taught me a lot.
 
+## My education
+
+At first I attended the Liceo Classico E. Montale in my hometown, San Donà di Piave, then
+I decided that technology and science were my real interests in life, so I attended and
+graduated in Biomedical engineering with a bachelor's degree @ the Università degli Studi di
+Padova, in 2016.
+
+The classical studies have taught me how to think and how to study. The university
+increased my scientific knowledge and guided me in my first steps in the technological field,
+but my real skills have been developed over the years with the constant practice, countless
+hours spent at the PC "reinventing the wheel", testing out new stuff, and at my workplace.
+
+I like to think my path in the IT knowledge will never end, there's always something new
+and exciting to discover, and I'll be there when the time comes.
+
 [1]: https://cordis.europa.eu/project/id/607691
 [2]: https://www.coursera.org/account/accomplishments/specialization/certificate/DG2LHGV3VFGJ
 [3]: https://www.coursera.org/account/accomplishments/certificate/HNYAZDXTCKNC
