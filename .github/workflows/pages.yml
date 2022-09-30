@@ -57,6 +57,8 @@ jobs:
           hugo \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
+      - name: Copy CNAME
+        run: cp CNAME ./public
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
