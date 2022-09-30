@@ -17,6 +17,7 @@ jobs:
 
       - name: Install npm dependencies
         uses: actions/setup-node@v3
+	working-directory: ./themes/hugo-dark-developer
         with:
           node-version: 16
         run: npm install
