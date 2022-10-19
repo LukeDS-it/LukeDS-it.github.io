@@ -23,7 +23,7 @@ understand at which point of time I am in. The following symbols are used:
 | Status | Task                                                                                      |
 |--------|-------------------------------------------------------------------------------------------|
 | 🔵     | Documentation about the architecture, the domain and eventsourcing                        |
-| ⚪      | Creation of the service that will handle the domains and send events                      |
-| ⚪      | Creation of the service that will listen to the domain changes and will react accordingly |
+| 🟡     | Creation of the service that will handle the domains and send events                      |
+| 🟡     | Creation of the service that will listen to the domain changes and will react accordingly |
 | 🔵     | Creation of the front-end application that will allow easy editing                        |
-| ⚪      | Provide a public url for everyone to enjoy Ragno!                                         |
+| 🟡     | Provide a public url for everyone to enjoy Ragno!                                         |

@@ -10,9 +10,11 @@ description: >-
              applied, can greatly help to keep the pace of evolution.
 ---
 
+{{< notice info >}}
 Please note: I am writing this page as personal notes while learning more about the microservice
 architecture. By writing this I aim to summarise and order concepts so that I will improve the
 learning process, hopefully this byproduct will be useful for other people as well.
+{{< /notice >}}
 
 The goal in software development, during modern times is to build a system that is _responsive_ to
 users.
