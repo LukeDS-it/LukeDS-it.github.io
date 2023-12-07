@@ -47,9 +47,10 @@ This page summarizes my work experience and my tech skills.
 
 ## My employers
 
-|         Time period        |                                Employer                                     |
+| Time period                | Employer                                                                    |
 |----------------------------|-----------------------------------------------------------------------------|
-| March 2020 - Current       | BOOM! Imagestudio S.P.A. as senior software engineer, analyst and recruiter |
+| November 2022 - Current    | Moneyfarm as senior software developer                                      | 
+| March 2020 - November 2022 | BOOM! Imagestudio S.P.A. as senior software engineer, analyst and recruiter |
 | December 2016 - March 2020 | Previnet S.P.A. as Software Architect                                       |
 | July 2009 - December 2016  | Datapiano S.R.L. as full stack developer                                    |
 | November 2014 - July 2015  | Creator and maintainer of the website for Teatro Metropolitano Astra        |
