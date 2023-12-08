@@ -1,0 +1,47 @@
+{
+  "name": "grigioverde",
+  "images": [
+    {
+      "url": "https://firebasestorage.googleapis.com/v0/b/webfleet-serverless.appspot.com/o/user-resources%2Fldsoftware.it%2Fgallery%2Fvilla-grigioverde%2Ftreaty.jpg?alt=media",
+      "alt": "Reenactment, five people dressed as WW2 soldiers gather around a table, one of them dressed as a general is signing a piece of paper, while another points to the table.",
+      "description": "The peace treaty",
+      "ratio": "landscape"
+    },
+    {
+      "url": "https://firebasestorage.googleapis.com/v0/b/webfleet-serverless.appspot.com/o/user-resources%2Fldsoftware.it%2Fgallery%2Fvilla-grigioverde%2Fjimmy1.jpg?alt=media",
+      "alt": "Two Willys jeeps on a suburban road are riding towards the city. One of them has a british flag waving",
+      "description": "Closing in to the city",
+      "ratio": "landscape"
+    },
+    {
+      "url": "https://firebasestorage.googleapis.com/v0/b/webfleet-serverless.appspot.com/o/user-resources%2Fldsoftware.it%2Fgallery%2Fvilla-grigioverde%2Ffarewell.jpg?alt=media",
+      "alt": "A soldier standing on a train waves his hat to a woman that's waving a tissue and weeping for his departure",
+      "description": "A farewell",
+      "ratio": "landscape"
+    },
+    {
+      "url": "https://firebasestorage.googleapis.com/v0/b/webfleet-serverless.appspot.com/o/user-resources%2Fldsoftware.it%2Fgallery%2Fvilla-grigioverde%2Fjimmy2.jpg?alt=media",
+      "alt": "Two Willys jeeps cross a cobblestone path in the middle of the woods",
+      "description": "Deep in the woods",
+      "ratio": "landscape"
+    },
+    {
+      "url": "https://firebasestorage.googleapis.com/v0/b/webfleet-serverless.appspot.com/o/user-resources%2Fldsoftware.it%2Fgallery%2Fvilla-grigioverde%2Fcity.jpg?alt=media",
+      "alt": "A red haired woman sits quietly in a courtyard, behind her a statue and a wall made of black pebbles. It looks like the photo was taken without her knowing she was being watched",
+      "description": "Back in the city",
+      "ratio": "landscape"
+    },
+    {
+      "url": "https://firebasestorage.googleapis.com/v0/b/webfleet-serverless.appspot.com/o/user-resources%2Fldsoftware.it%2Fgallery%2Fvilla-grigioverde%2Freport.jpg?alt=media",
+      "alt": "Someone is writing on a notepad",
+      "description": "Thorough report",
+      "ratio": "landscape"
+    },
+    {
+      "url": "https://firebasestorage.googleapis.com/v0/b/webfleet-serverless.appspot.com/o/user-resources%2Fldsoftware.it%2Fgallery%2Fvilla-grigioverde%2Fmessage.jpg?alt=media",
+      "alt": "A helmet with a red cross painting and a message with written \"The life doesn't die\"",
+      "description": "A message of hope",
+      "ratio": "landscape"
+    }
+  ]
+}
