@@ -5,10 +5,10 @@ theme = 'hugo-dark-developer'
 
 [params]
     logo = 'logos/lds_green.png'
+    additionalFooter = "I don't use cookies nor track your presence here."
     [params.author]
         name = "Luca Di Stefano"
         email = ""
-    additionalFooter = "I don't use cookies nor track your presence here."
     [params.social]
         GitHub = "https://github.com/LukeDS-it"
 
