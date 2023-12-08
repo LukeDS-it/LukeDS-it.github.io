@@ -1,0 +1,47 @@
+{
+  "name": "best-shot",
+  "images": [
+    {
+      "url": "https://firebasestorage.googleapis.com/v0/b/webfleet-serverless.appspot.com/o/user-resources%2Fldsoftware.it%2Fgallery%2Fbest-of%2Fyellow-brick-road.jpg?alt=media",
+      "alt": "A road at sunset, the sun rays make the pavement look like it's made of golden slabs",
+      "description": "Follow the yellow brick road",
+      "ratio": "wide"
+    },
+    {
+      "url": "https://firebasestorage.googleapis.com/v0/b/webfleet-serverless.appspot.com/o/user-resources%2Fldsoftware.it%2Fgallery%2Fbest-of%2Fmyung.jpg?alt=media",
+      "alt": "Picture of bass player John Myung on stage doing a solo",
+      "description": "John Myung",
+      "ratio": "tall"
+    },
+    {
+      "url": "https://firebasestorage.googleapis.com/v0/b/webfleet-serverless.appspot.com/o/user-resources%2Fldsoftware.it%2Fgallery%2Fbest-of%2Ffrecce.jpg?alt=media",
+      "alt": "Picture of the Frecce Tricolore performing a stunt",
+      "description": "Frecce Tricolore",
+      "ratio": "default"
+    },
+    {
+      "url": "https://firebasestorage.googleapis.com/v0/b/webfleet-serverless.appspot.com/o/user-resources%2Fldsoftware.it%2Fgallery%2Fbest-of%2Flegion.jpg?alt=media",
+      "alt": "Picture of reenactment with people dressed as roman soldiers and a centurion inspecting them",
+      "description": "La legione",
+      "ratio": "tall"
+    },
+    {
+      "url": "https://firebasestorage.googleapis.com/v0/b/webfleet-serverless.appspot.com/o/user-resources%2Fldsoftware.it%2Fgallery%2Fbest-of%2Ffirefly.jpg?alt=media",
+      "alt": "Closeup of a firefly",
+      "description": "The firefly",
+      "ratio": "default"
+    },
+    {
+      "url": "https://firebasestorage.googleapis.com/v0/b/webfleet-serverless.appspot.com/o/user-resources%2Fldsoftware.it%2Fgallery%2Fbest-of%2Fprey.jpg?alt=media",
+      "alt": "Close up of a spider in a web with its prey",
+      "description": "The prey",
+      "ratio": "default"
+    },
+    {
+      "url": "https://firebasestorage.googleapis.com/v0/b/webfleet-serverless.appspot.com/o/user-resources%2Fldsoftware.it%2Fgallery%2Fbest-of%2Fseagulls.jpg?alt=media",
+      "alt": "Rock in the middle of the sea with various birds on top of it",
+      "description": "Lo scoglio",
+      "ratio": "default"
+    }
+  ]
+}
